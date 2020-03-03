@@ -1,15 +1,20 @@
 {
-  "name": "next-play",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
+  "name": "next-play",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
+    "apollo-link-http": "^1.5.16",
+    "graphql": "^14.6.0",
     "next": "9.2.2",
+    "nhost-js-sdk": "^1.2.0",
+    "ra-data-hasura-graphql": "^0.1.9",
     "react": "16.13.0",
+    "react-admin": "^3.2.3",
     "react-dom": "16.13.0"
   },
   "devDependencies": {
